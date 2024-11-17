@@ -11,7 +11,7 @@ import threading
 ser = serial.Serial("/dev/ttyACM0", 9600)
 
 # Vision AI API URL and settings
-VISION_API_URL = "http://192.168.10.13:8881/inference/run"
+VISION_API_URL = "####"
 params = {
     "min_confidence": 0.4,
     "base_model": "YOLOv6-L"
